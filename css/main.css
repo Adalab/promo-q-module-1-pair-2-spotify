@@ -46,6 +46,34 @@
 .parrafo3 {
     color: white;
     font-size: 10px;
+    padding: 10px;
 }
 
+.parte2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
 
+.parte2 .titulo {
+    margin-top: 10px;
+}
+
+.parte2 .container {
+    display: flex;   
+    margin: 10px;
+}
+
+.container .imagen {
+    width: 100px;
+}
+
+.container .uno {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+line-height: 30px;
+margin-left: 20px;
+}
